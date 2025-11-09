@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{caption}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Your Project Title}
+\lhead{Your Name}
+\rfoot{\thepage}
+
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\setstretch{1.5}
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\LARGE \textbf{Project Title}}\\[1.5cm]
+    {\large Your Name}\\
+    {\large Department of XYZ, Your College}\\[1.5cm]
+    {\large Submitted in partial fulfillment for the requirement of the degree of}\\
+    {\large Bachelor of Technology in XYZ}\\[1cm]
+    {\large Month, Year}
+    \vfill
+\end{titlepage}
+
+% Abstract
+\section*{Abstract}
+% Paste your abstract here
+\vspace{1cm}
+
+\newpage
+
+% 1. Introduction
+\section{Introduction}
+% Paste your introduction here
+
+% 2. Literature Survey
+\section{Literature Survey}
+
+\subsection{Literature Review Summary}
+% Paste summary of your literature review here
+
+\subsection{Existing System}
+% Describe the current system or related works
+
+\subsection{Problem Statement}
+% Clearly state the problem you're addressing
+
+\subsection{Proposed System}
+% Describe your proposed solution
+
+\subsection{Objectives}
+% List the main objectives of your project
+\begin{itemize}
+    \item Objective 1
+    \item Objective 2
+    \item Objective 3
+\end{itemize}
+
+% 3. System Requirements
+\section{System Requirements}
+% Specify hardware/software/tools used
+\begin{itemize}
+    \item Software requirements
+    \item Hardware requirements
+\end{itemize}
+
+% 4. Methodology
+\section{Methodology}
+% Describe the working or implementation steps
+
+\vspace{1cm}
+% Image placeholder
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{methodology_image.png} % Replace with your image file name
+    \caption{Block diagram / Flowchart / Architecture (as applicable)}
+    \label{fig:methodology}
+\end{figure}
+
+% 5. Conclusion
+\section{Conclusion}
+% Write your conclusion here
+
+% 6. References
+\section{References}
+% Add your references here using any format you prefer
+\begin{itemize}
+    \item Author, Title, Year, Source
+    \item Author, Title, Year, Source
+\end{itemize}
+
+\end{document}
